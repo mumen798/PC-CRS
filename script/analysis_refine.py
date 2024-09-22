@@ -6,12 +6,11 @@ from bert_score import score
 import nltk
 from rouge import Rouge
 
-GPT3_URL = "https://api.xiaoai.plus/v1"
-# GPT3_URL = "https://ngedlktfticp.cloud.sealos.io/v1"
-GPT4_URL = "https://api.gptapi.us/v1"
-GPT4_KEY = "sk-USFpCc4Uk3OWh0XSBdAaCa440bB6441eA7125eB68dE56d3c"
-GPT3_KEY = "sk-3HzWsE3sPcwI7s1mB25076AaEeC4422fB1352d513fFeB82c"
-GPT4 = "gpt-4o"  # gpt-4-turbo-2024-04-09
+GPT3_URL = ""
+GPT4_URL = ""
+GPT4_KEY = ""
+GPT3_KEY = ""
+GPT4 = "gpt-4o" # gpt-4-turbo-2024-04-09
 GPT3 = "gpt-3.5-turbo-0125"
 
 STRATEGY_DEFINITION = {

@@ -10,15 +10,11 @@ from tenacity import _utils, Retrying, retry_if_not_exception_type
 from tenacity.stop import stop_base
 from tenacity.wait import wait_base
 
-os.environ['http_proxy'] = 'http://127.0.0.1:7890'
-os.environ['https_proxy'] = 'http://127.0.0.1:7890'
 
-
-GPT3_URL = "https://api.xiaoai.plus/v1"
-# GPT3_URL = "https://ngedlktfticp.cloud.sealos.io/v1"
-GPT4_URL = "https://ngedlktfticp.cloud.sealos.io/v1"
-GPT4_KEY = "sk-1RtIIVK2V8OCkx6iCd70840f504d41Cf805c01F171FfD06e"
-GPT3_KEY = "sk-3HzWsE3sPcwI7s1mB25076AaEeC4422fB1352d513fFeB82c"
+GPT3_URL = ""
+GPT4_URL = ""
+GPT4_KEY = ""
+GPT3_KEY = ""
 GPT4 = "gpt-4o" # gpt-4-turbo-2024-04-09
 GPT3 = "gpt-3.5-turbo-0125"
 

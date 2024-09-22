@@ -13,18 +13,8 @@ import jsonlines
 DEBUG = 1
 OPENAI = False
 
-os.environ['http_proxy'] = 'http://127.0.0.1:7890'
-os.environ['https_proxy'] = 'http://127.0.0.1:7890'
 
-
-os.environ['http_proxy'] = 'http://127.0.0.1:7890'
-os.environ['https_proxy'] = 'http://127.0.0.1:7890'
-
-pool_keys = ["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",
-             "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",
-             "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",
-             "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"
-            ]
+pool_keys = []
 
 class FileResult:
     def __init__(self, profile, attribute_candidate, file_name):

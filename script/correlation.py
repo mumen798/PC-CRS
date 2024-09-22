@@ -9,9 +9,9 @@ from sklearn.metrics import cohen_kappa_score
 import krippendorff
 import matplotlib.pyplot as plt
 
-path = 'D:\\code\\UserSimulator_A100\\iEvaLM\\new_human_evaluation\\pc_crs'
-human_path = 'D:\\code\\UserSimulator_A100\\iEvaLM\\new_ttt_check'
-human_path2 = 'D:\\code\\UserSimulator_A100\\iEvaLM\\qpx_check'
+path = ''
+human_path = ''
+human_path2 = ''
 chatgpt_p = []
 chatgpt_t = []
 ttt_p = []

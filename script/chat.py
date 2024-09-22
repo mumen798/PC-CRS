@@ -28,28 +28,8 @@ from src.model.recommender import RECOMMENDER
 
 warnings.filterwarnings('ignore')
 
-os.environ['http_proxy'] = 'http://127.0.0.1:7890'
-os.environ['https_proxy'] = 'http://127.0.0.1:7890'
 
-pool_keys = ["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",
-             "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",
-             "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",
-             "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",
-             "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",
-             "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",
-             "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",
-             "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",
-             "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",
-             "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",
-             "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",
-             "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",
-             "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",
-             "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",
-             "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",
-             "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",
-             "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",
-             "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"
-            ]
+pool_keys = []
 available = [1] * len(pool_keys)
 
 def get_exist_dialog_set():
