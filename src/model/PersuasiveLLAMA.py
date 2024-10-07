@@ -34,7 +34,7 @@ Definition: Relying on the first piece of information as a reference point to gr
 Definition: Emphasize the positive aspects, outcomes of watching the recommended movie based on the genre that matches user's preference.'''
 }
 
-model_id = "/data/qinpeixin/huggingface/llama3-8b-instruct/"
+model_id = "../llama3-8b-instruct/"
 
 pipeline = transformers.pipeline(
     "text-generation",
