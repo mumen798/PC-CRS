@@ -1,4 +1,4 @@
 main entrance:
 ```bash
-python script persuasive_chat.py
+python script/persuasive_chat.py
 ```
