@@ -358,7 +358,7 @@ Your response:'''
 
         return [{"role": "system", "content": prompt}]
 
-    def construct_chat_prompt(self, context):  # You can express your admiration for certain item elements to guide the conversation towards them, thereby gaining insights into the user preferences regarding those elements.
+    def construct_chat_prompt(self, context):  
         prompt = '''You are a recommender chatting with the user to provide movie recommendation.
 You should chit-chat with the user to learn about their preferences. Or you can answer the user's question to give very brief descriptions about the recommended item.
 
