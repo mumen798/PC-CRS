@@ -41,7 +41,7 @@ def call_embedding(prompt):
     return response
 
 
-model_id = "/data/qinpeixin/huggingface/llama3-8b-instruct/"
+model_id = "../llama3-8b-instruct/"
 
 pipeline = transformers.pipeline(
     "text-generation",
